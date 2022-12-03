@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrobotics=self.webpackChunkrobotics||[]).push([[9154],{9181:o=>{o.exports=JSON.parse('{"label":"hello","permalink":"/robotics/blog/tags/hello","allTagsPath":"/robotics/blog/tags","count":2}')}}]);
