@@ -1,5 +1,7 @@
 name: Deploy to GitHub Pages
-#AFTER MAKING CHANGES AND COMMITING TO GITHUB DO THE GIT THING IN CMD LINE IT WORKS
+#AFTER MAKING CHANGES AND COMMITING TO GITHUB DO THE GIT THING yarn deploy IN CMD LINE IT WORKS
+
+# MUST be in main branch, if in some weird branch lie c4ej8i, get out by doing git checkout main, then push the do the yarn deplo hthing above
 on:
   push:
     branches:

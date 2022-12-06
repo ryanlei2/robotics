@@ -8,7 +8,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        This wiki was designed to be used as a general step-by-step guide, regardless of how much experience one might have.
+        This wiki was designed to be used as a general step-by-step guide, regardless of how much experience you might have.
       </>
     ),
   },
@@ -17,10 +17,10 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Being updated regularly, the Robotics Guide is kept maintained by professionals and we&apos;ll help you as much as possible. Join our discord server:.
       </>
     ),
+    buttonLink: 'https://discord.gg/2g3avQBgwz',
   },
   {
     title: 'Powered by React',
@@ -44,6 +44,7 @@ function Feature({Svg, title, description}) {
         <h3>{title}</h3>
         <p>{description}</p>
       </div>
+      <a href={buttonLink} className="button button--secondary button--block">Visit</a>
     </div>
   );
 }
