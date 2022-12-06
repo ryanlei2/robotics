@@ -11,28 +11,24 @@ const FeatureList = [
         This wiki was designed to be used as a general step-by-step guide, regardless of how much experience you might have.
       </>
     ),
-    buttonLink: '',
   },
   {
     title: 'Made with Experience',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Being updated regularly, the Robotics Guide is kept maintained by professionals and we&apos;ll help you as much as possible. Join our discord server:.
+        Being updated regularly, the Robotics Guide is kept maintained by professionals and we&apos;ll help you as much as possible.
       </>
     ),
-    buttonLink: 'https://discord.gg/2g3avQBgwz',
   },
   {
-    title: 'Powered by React',
+    title: 'Powered by Docusaurus',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Docusaurus, along with React, are responsible for creating this website. S/o to these great tools for making this wiki happen.
       </>
     ),
-    buttonLink: '',
   },
 ];
 
@@ -46,7 +42,6 @@ function Feature({Svg, title, description}) {
         <h3>{title}</h3>
         <p>{description}</p>
       </div>
-      <a href={buttonLink} className="button button--secondary button--block">Visit</a>
     </div>
   );
 }

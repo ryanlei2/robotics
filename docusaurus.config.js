@@ -105,12 +105,17 @@ const config = {
             items: [
               //uncomment this to reveal blog button on bottom
               // {
-              //   label: 'Blog',
+              //   label: 'School',
               //   to: '/blog',
               // },
+              //https://discord.gg/2g3avQBgwz
+              {
+                  label: 'School',
+                  href: 'https://discord.gg/2g3avQBgwz',
+                },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/ryanlei2',
               },
             ],
           },
