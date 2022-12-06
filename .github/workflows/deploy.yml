@@ -2,6 +2,8 @@ name: Deploy to GitHub Pages
 #AFTER MAKING CHANGES AND COMMITING TO GITHUB DO THE GIT THING yarn deploy IN CMD LINE IT WORKS
 
 # MUST be in main branch, if in some weird branch lie c4ej8i, get out by doing git checkout main, then push the do the yarn deplo hthing above
+
+#AFTER DONE WITH ALL THAT DO GIT PULL MAIN to get all the current up-to-date code from there, then work from there and git push 
 on:
   push:
     branches:
