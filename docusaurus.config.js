@@ -38,7 +38,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/ryanlei2/robotics',
+            'https://github.com/ryanlei2/robotics/blob/main',
         },
         blog: {
           showReadingTime: true,
