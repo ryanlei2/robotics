@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Robotics Guide',
+  title: 'robotics',
   tagline: '',
-  url: 'https://ryanlei2.github.io/robotics',
+  url: 'https://github.com',
   baseUrl: '/robotics/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
