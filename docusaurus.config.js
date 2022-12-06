@@ -95,7 +95,7 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Discord',
+                label: 'FTC Discord',
                 href: 'https://discord.gg/first-tech-challenge',
               },
             ],
