@@ -12,7 +12,7 @@ const config = {
   baseUrl: '/robotics/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'https://i.imgur.com/gKs8Jhn.png',
   deploymentBranch: "gh-pages",
 
   // GitHub pages deployment config.
@@ -61,7 +61,7 @@ const config = {
         title: 'Home',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'https://i.imgur.com/gKs8Jhn.png', //use i.imgur.com/xxx.png to point directly to the image
         },
         items: [
           {
@@ -70,6 +70,7 @@ const config = {
             position: 'left',
             label: 'Introduction',
           },
+          //Uncomment this to see the Blog button on nav
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/ryanlei2/robotics',
@@ -94,7 +95,7 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Discord',
+                label: 'FTC Discord',
                 href: 'https://discord.gg/first-tech-challenge',
               },
             ],
