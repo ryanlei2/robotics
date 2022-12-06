@@ -70,6 +70,7 @@ const config = {
             position: 'left',
             label: 'Introduction',
           },
+          //Uncomment this to see the Blog button on nav
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/ryanlei2/robotics',
