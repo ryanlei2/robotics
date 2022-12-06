@@ -8,13 +8,12 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        This wiki was designed to be used as a general step-by-step guide, regardless of how much experience one might have.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Made with Experience',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
