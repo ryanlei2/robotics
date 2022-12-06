@@ -11,6 +11,7 @@ const FeatureList = [
         This wiki was designed to be used as a general step-by-step guide, regardless of how much experience you might have.
       </>
     ),
+    buttonLink: '',
   },
   {
     title: 'Made with Experience',
@@ -31,6 +32,7 @@ const FeatureList = [
         be extended while reusing the same header and footer.
       </>
     ),
+    buttonLink: '',
   },
 ];
 
