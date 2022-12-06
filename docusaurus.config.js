@@ -12,7 +12,7 @@ const config = {
   baseUrl: '/robotics/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'https://i.imgur.com/gKs8Jhn.png',
   deploymentBranch: "gh-pages",
 
   // GitHub pages deployment config.
@@ -61,7 +61,7 @@ const config = {
         title: 'Home',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'https://i.imgur.com/gKs8Jhn.png', //use i.imgur.com/xxx.png to point directly to the image
         },
         items: [
           {
