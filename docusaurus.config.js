@@ -1,14 +1,10 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
-
-/** @type {import('@docusaurus/types').Config} */
-const config = {
+module.exports = {
   title: 'robotics',
   tagline: '',
-  url: 'https://github.com',
+  url: 'https://ryanlei2.github.io',
   baseUrl: '/robotics/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -20,43 +16,16 @@ const config = {
   organizationName: 'ryanlei2', // Usually your GitHub org/user name.
   projectName: 'robotics', // Usually your repo name.
 
-  // Even if you don't use internalization, you can use this field to set useful
-  // metadata like html lang. For example, if your site is Chinese, you may want
-  // to replace "en" with "zh-Hans".
-  i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
-  },
-
-  presets: [
-    [
-      'classic',
-      /** @type {import('@docusaurus/preset-classic').Options} */
-      ({
-        docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/ryanlei2/robotics/blob/main',
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/ryanlei2/robotics',
-        },
-        theme: {
-          customCss: require.resolve('./src/css/custom.css'),
-        },
-      }),
-    ],
-  ],
-
-  themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+    themeConfig:
     ({
+      announcementBar: {
+        id: 'support_us',
+        content:
+          'Looking to support our cause? We&apos;d appreciate it if you donated <a target="_blank" href="https://google.com">here</a>',
+        backgroundColor: '#2e8555',
+        textColor: '#ffffff',
+        isCloseable: false,
+      },
       navbar: {
         title: 'Home',
         logo: {
@@ -79,6 +48,17 @@ const config = {
           },
         ],
       },
+
+      docs: {
+        sidebar: {
+          hideable: true,
+        },
+      },
+
+      colorMode: {
+        defaultMode: "dark",
+      },
+
       footer: {
         style: 'dark',
         links: [
@@ -120,13 +100,32 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
-      },
-      prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+        copyright: `Copyright © ${new Date().getFullYear()} RHS Robotics, Inc.`,
       },
     }),
+    presets: [
+      [
+        'classic',
+        /** @type {import('@docusaurus/preset-classic').Options} */
+        ({
+          docs: {
+            sidebarPath: require.resolve('./sidebars.js'),
+            // Please change this to your repo.
+            // Remove this to remove the "edit this page" links.
+            editUrl:
+              'https://github.com/ryanlei2/robotics/blob/main',
+          },
+          blog: {
+            showReadingTime: true,
+            // Please change this to your repo.
+            // Remove this to remove the "edit this page" links.
+            editUrl:
+              'https://github.com/ryanlei2/robotics',
+          },
+          theme: {
+            customCss: require.resolve('./src/css/custom.css'),
+          },
+        }),
+      ],
+    ],
 };
-
-module.exports = config;
