@@ -22,6 +22,20 @@ This command starts a local development server and opens up a browser window. Mo
 $ yarn build
 ```
 
+## Get it up and running:
+first, install dependencies to make this work
+```
+yarn
+```
+mext, build all files to get website ready
+```
+yarn build
+```
+finally, start it up
+```
+yarn serve
+```
+
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
 ### Deployment
